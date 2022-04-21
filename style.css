@@ -1,0 +1,195 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Overpass", sans-serif;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.3rem;
+}
+
+.wrapper{
+    background-color: hsl(213, 19%, 18%);
+    width: 20%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 19px;
+    margin-bottom: 0.8rem;
+}
+
+.button{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin: 0 auto;
+    padding: 0.7rem 0;
+}
+
+.button:hover{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.button:hover > a{
+    color:hsl(25, 97%, 53%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.main{
+    align-self: flex-start;
+}
+
+
+.star{
+    background-color: hsl(215, 20%, 25%);
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    align-self: flex-start;
+}
+
+.para{
+    margin-bottom: 1.3rem;
+    font-size: 12px;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+.one, .two, .three, .four, .five{
+    height: 40px;
+    width: 40px;
+    background-color: hsl(212, 22%, 24%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+
+}
+
+.one:focus, .two:focus, .three:focus, .four:focus, .five:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.headim{
+    margin-bottom: 1rem;
+}
+
+aside{
+    margin-bottom: 2rem;
+}
+
+aside > p{
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+    background-color: hsl(212, 22%, 24%);
+    color:orange;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.thanks > h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.thanks > p{
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width:1075px){
+    .wrapper{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:845px) {
+    .wrapper{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .wrapper{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .wrapper{
+        width: 70%;
+    }
+
+
+}
